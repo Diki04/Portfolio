@@ -7,9 +7,10 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaJava
 } from "react-icons/fa"
 
-import { SiTailwindcss, SiNextdotjs, SiPostman,SiVisualstudiocode, SiExpress, SiGit, SiGithub, SiCsharp, SiCplusplus, SiPrisma, SiPhpmyadmin, SiLaragon, SiBootstrap } from 'react-icons/si'
+import { SiTailwindcss, SiNextdotjs, SiPostman,SiVisualstudiocode, SiExpress, SiGit, SiGithub, SiCsharp, SiCplusplus, SiPrisma, SiPhpmyadmin, SiLaragon, SiBootstrap,  } from 'react-icons/si'
 
 //  about data
 const about = {
@@ -159,6 +160,10 @@ const skills = {
     {
       icon: <SiCplusplus />,
       name: "c++",
+    },
+    {
+      icon: <FaJava />,
+      name: "Java",
     },
     {
       icon: <SiGit />,
